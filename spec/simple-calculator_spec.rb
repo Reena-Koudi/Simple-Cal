@@ -11,6 +11,10 @@ describe "simple calculator" do
      end
   end
   
-  
+  describe "#deduct" do
+      it "deducts two numbers" do
+          expect(calculator.deduct(2,1)).to eq 1
+      end
+  end
   
 end

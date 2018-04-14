@@ -4,6 +4,9 @@ class Simple_Calculator
     a + b
   end
   
- 
+  def deduct(a,b)
+    a - b
+  end
+  
 end
 
