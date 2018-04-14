@@ -1,5 +1,9 @@
 class Simple_Calculator
-  def simple_calculator
-      
+  
+  def add(a,b)
+    a + b
   end
+  
+ 
 end
+
