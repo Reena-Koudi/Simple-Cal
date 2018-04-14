@@ -23,4 +23,9 @@ describe "simple calculator" do
     end
   end
   
+  describe "#divide" do
+    it "divides two numbers" do
+     expect(calculator.divide(4,2)).to eq 2
+    end
+  end
 end
